@@ -1,0 +1,12 @@
+﻿Build started 10/8/2015 9:30:34 PM.
+     1>Project "d:\dateUtility\dateUtility\dateUtility.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll" /errorReport:prompt /clr:nostdlib Source.cpp
+         Source.cpp
+     1>Source.cpp(47): error C3255: 'System::DateTime': cannot dynamically allocate this value type object on native heap
+         Source.cpp(47): note: only simple value types are allowed
+     1>Done Building Project "d:\dateUtility\dateUtility\dateUtility.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.79
